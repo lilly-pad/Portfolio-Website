@@ -20,6 +20,13 @@ footer {
     padding: 80px;
 }
 
+@media only screen and (max-width: 1000px) {
+    footer {
+        display:flex;
+        flex-wrap: wrap;
+    }
+}
+
 nav {
    display: flex; 
    justify-content: space-between; 
@@ -53,7 +60,20 @@ p {
 } 
 
 .subtext {
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.subtext-2 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.subtext-3 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 17px;
     font-weight: 400px;
 }
 
@@ -92,11 +112,11 @@ p {
 }
 
 .socials {
-    padding-bottom: 200px;
+    padding-bottom: 250px;
 }
 
 .social {
-    margin: 20px;
+    margin: 10px;
 }
 
 .sub-section {
@@ -119,6 +139,7 @@ h2 {
 }
 
 .headshot {
+    margin-left: 30px;
     width: 300px;
     border-radius: 150px;
 }
@@ -128,14 +149,24 @@ h2 {
     align-items: center;
 }
 
+.info-1 {
+    margin-top: 25px;
+}
+
+.info-2 {
+    margin-top: 32px;
+    font-size: 28px;
+}
+
 .project-card {
-    width: 300px;
-    height: 500px;
-    border: 1px solid black;
+    width: 600px;
+    height: 900px;
     margin: 10px;
+    font-size: 30px;
 }
 
 .project-container {
+    height: 1700px;
     display: flex;
     justify-content: space-around;
 }
@@ -150,10 +181,12 @@ h2 {
 .project-image {
     margin-top: 25px;
     width: 250px;
+    height: 250px;
     border-radius: 125px;
 }
 
 .project-link {
+    margin-top: 100px;
     text-decoration: none;
     color:rgb(72, 43, 72);
 }
@@ -173,10 +206,11 @@ a {
 
 @media only screen and (max-width: 1000px) {
     .hamburger {
+        margin-right: 20px;
         display: block;
         background-color: transparent;
         border: 0;
-        font-size: 50px;
+        font-size: 40px;
         align-self: flex-end;
     }
 
