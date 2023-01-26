@@ -113,6 +113,7 @@ p {
 
 .socials {
     padding-bottom: 250px;
+    display: flex;
 }
 
 .social {
