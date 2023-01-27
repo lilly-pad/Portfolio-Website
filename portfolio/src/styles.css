@@ -13,20 +13,6 @@ section {
     font-size: 40px;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 80px;
-}
-
-@media only screen and (max-width: 1000px) {
-    footer {
-        display:flex;
-        flex-wrap: wrap;
-    }
-}
-
 nav {
    display: flex; 
    justify-content: space-between; 
@@ -43,6 +29,7 @@ ul {
 ul.show {
     display: block;
 }
+
 
 li {
     text-decoration: none;
@@ -73,6 +60,20 @@ p {
 .subtext-3 {
     margin-top: 20px;
     margin-bottom: 40px;
+    font-size: 17px;
+    font-weight: 400px;
+}
+
+.subtext-3-alt {
+    margin-top: 20px;
+    margin-bottom: 83px;
+    font-size: 17px;
+    font-weight: 400px;
+}
+
+.subtext-3-alt-2 {
+    margin-top: 20px;
+    margin-bottom: 126px;
     font-size: 17px;
     font-weight: 400px;
 }
@@ -113,7 +114,6 @@ p {
 
 .socials {
     padding-bottom: 250px;
-    display: flex;
 }
 
 .social {
@@ -140,12 +140,12 @@ h2 {
 }
 
 .headshot {
-    margin-left: 30px;
     width: 300px;
-    border-radius: 150px;
+    border-radius: 200px;
 }
 
 .headshot-container {
+    margin-left: 30px;
     display: flex;
     align-items: center;
 }
@@ -160,16 +160,24 @@ h2 {
 }
 
 .project-card {
-    width: 600px;
+    width: 550px;
     height: 900px;
     margin: 10px;
     font-size: 30px;
 }
 
 .project-container {
-    height: 1700px;
+    height: 1750px;
     display: flex;
     justify-content: space-around;
+}
+
+footer {
+    height: 200px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 1000px) {
